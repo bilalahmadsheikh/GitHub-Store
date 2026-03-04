@@ -415,5 +415,7 @@
     <string name="detected_links">検出されたリンク</string>
     <string name="open_in_app">アプリで開く</string>
     <string name="no_github_link_in_clipboard">クリップボードにGitHubリンクが見つかりません</string>
+    <string name="sort_order_descending">降順</string>
+    <string name="sort_order_ascending">昇順</string>
 
 </resources>

@@ -416,5 +416,7 @@
     <string name="detected_links">Обнаруженные ссылки</string>
     <string name="open_in_app">Открыть в приложении</string>
     <string name="no_github_link_in_clipboard">Ссылка GitHub не найдена в буфере обмена</string>
+    <string name="sort_order_descending">По убыванию</string>
+    <string name="sort_order_ascending">По возрастанию</string>
 
 </resources>

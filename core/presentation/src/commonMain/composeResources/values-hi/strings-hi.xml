@@ -451,5 +451,7 @@
     <string name="detected_links">पहचाने गए लिंक</string>
     <string name="open_in_app">ऐप में खोलें</string>
     <string name="no_github_link_in_clipboard">क्लिपबोर्ड में कोई GitHub लिंक नहीं मिला</string>
+    <string name="sort_order_descending">अवरोही</string>
+    <string name="sort_order_ascending">आरोही</string>
 
 </resources>

@@ -451,5 +451,7 @@
     <string name="detected_links">সনাক্তকৃত লিংক</string>
     <string name="open_in_app">অ্যাপে খুলুন</string>
     <string name="no_github_link_in_clipboard">ক্লিপবোর্ডে কোনো GitHub লিংক পাওয়া যায়নি</string>
+    <string name="sort_order_descending">অবরোহী</string>
+    <string name="sort_order_ascending">আরোহী</string>
 
 </resources>

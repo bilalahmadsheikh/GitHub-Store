@@ -58,7 +58,8 @@ class SearchRepositoryImpl(
         page: Int
     ): String {
         val queryHash = query.trim().lowercase().hashCode().toUInt().toString(16)
-        return "search:$queryHash:${platform.name}:${language.name}:${sortBy.name}:${sortOrder.name}:page$page"
+        val orderKey = if (sortBy.toGithubSortParam() == null) "NONE" else sortOrder.name
+        return "search:$queryHash:${platform.name}:${language.name}:${sortBy.name}:$orderKey:page$page"
     }
 
     override fun searchRepositories(

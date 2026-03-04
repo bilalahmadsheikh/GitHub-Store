@@ -448,5 +448,7 @@
     <string name="detected_links">Algılanan bağlantılar</string>
     <string name="open_in_app">Uygulamada aç</string>
     <string name="no_github_link_in_clipboard">Panoda GitHub bağlantısı bulunamadı</string>
+    <string name="sort_order_descending">Azalan</string>
+    <string name="sort_order_ascending">Artan</string>
 
 </resources>
