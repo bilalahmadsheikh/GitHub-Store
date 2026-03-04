@@ -448,5 +448,7 @@
     <string name="detected_links">감지된 링크</string>
     <string name="open_in_app">앱에서 열기</string>
     <string name="no_github_link_in_clipboard">클립보드에서 GitHub 링크를 찾을 수 없습니다</string>
+    <string name="sort_order_descending">내림차순</string>
+    <string name="sort_order_ascending">오름차순</string>
 
 </resources>

@@ -414,5 +414,7 @@
     <string name="detected_links">Wykryte linki</string>
     <string name="open_in_app">Otwórz w aplikacji</string>
     <string name="no_github_link_in_clipboard">Nie znaleziono linku GitHub w schowku</string>
+    <string name="sort_order_descending">Malejąco</string>
+    <string name="sort_order_ascending">Rosnąco</string>
 
 </resources>

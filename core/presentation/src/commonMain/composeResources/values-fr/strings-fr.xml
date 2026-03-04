@@ -416,5 +416,7 @@
     <string name="detected_links">Liens détectés</string>
     <string name="open_in_app">Ouvrir dans l\'app</string>
     <string name="no_github_link_in_clipboard">Aucun lien GitHub trouvé dans le presse-papiers</string>
+    <string name="sort_order_descending">Décroissant</string>
+    <string name="sort_order_ascending">Croissant</string>
 
 </resources>

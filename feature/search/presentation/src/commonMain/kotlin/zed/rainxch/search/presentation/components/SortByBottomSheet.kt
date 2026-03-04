@@ -20,8 +20,6 @@ import org.jetbrains.compose.resources.stringResource
 import zed.rainxch.domain.model.SortBy
 import zed.rainxch.domain.model.SortOrder
 import zed.rainxch.githubstore.core.presentation.res.Res
-import zed.rainxch.githubstore.core.presentation.res.close
-import zed.rainxch.githubstore.core.presentation.res.sort_by
 import zed.rainxch.search.presentation.utils.label
 
 @Composable
@@ -69,26 +67,28 @@ fun SortByBottomSheet(
                     }
                 }
 
-                HorizontalDivider()
+                if (selectedSortBy != SortBy.BestMatch) {
+                    HorizontalDivider()
 
-                Spacer(Modifier.height(4.dp))
+                    Spacer(Modifier.height(4.dp))
 
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    SortOrder.entries.forEach { order ->
-                        FilterChip(
-                            selected = order == selectedSortOrder,
-                            onClick = { onSortOrderSelected(order) },
-                            label = {
-                                Text(
-                                    text = stringResource(order.label()),
-                                    style = MaterialTheme.typography.bodyMedium
-                                )
-                            }
-                        )
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        SortOrder.entries.forEach { order ->
+                            FilterChip(
+                                selected = order == selectedSortOrder,
+                                onClick = { onSortOrderSelected(order) },
+                                label = {
+                                    Text(
+                                        text = stringResource(order.label()),
+                                        style = MaterialTheme.typography.bodyMedium
+                                    )
+                                }
+                            )
+                        }
                     }
                 }
             }

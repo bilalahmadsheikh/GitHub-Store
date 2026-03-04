@@ -416,5 +416,7 @@
     <string name="detected_links">检测到的链接</string>
     <string name="open_in_app">在应用中打开</string>
     <string name="no_github_link_in_clipboard">剪贴板中未找到 GitHub 链接</string>
+    <string name="sort_order_descending">降序</string>
+    <string name="sort_order_ascending">升序</string>
 
 </resources>

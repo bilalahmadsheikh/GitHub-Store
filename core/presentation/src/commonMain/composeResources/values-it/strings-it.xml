@@ -452,5 +452,7 @@
     <string name="detected_links">Link rilevati</string>
     <string name="open_in_app">Apri nell\'app</string>
     <string name="no_github_link_in_clipboard">Nessun link GitHub trovato negli appunti</string>
+    <string name="sort_order_descending">Decrescente</string>
+    <string name="sort_order_ascending">Crescente</string>
 
 </resources>

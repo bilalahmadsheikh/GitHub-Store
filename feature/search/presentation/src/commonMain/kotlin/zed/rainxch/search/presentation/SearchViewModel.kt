@@ -27,6 +27,7 @@ import zed.rainxch.core.domain.use_cases.SyncInstalledAppsUseCase
 import zed.rainxch.core.domain.utils.ClipboardHelper
 import zed.rainxch.core.domain.utils.ShareManager
 import zed.rainxch.core.presentation.model.DiscoveryRepository
+import zed.rainxch.domain.model.SortBy
 import zed.rainxch.domain.repository.SearchRepository
 import zed.rainxch.search.presentation.utils.isEntirelyGithubUrls
 import zed.rainxch.search.presentation.utils.parseGithubUrls
@@ -449,6 +450,7 @@ class SearchViewModel(
             }
 
             is SearchAction.OnSortOrderSelected -> {
+                if (_state.value.selectedSortBy == SortBy.BestMatch) return
                 if (_state.value.selectedSortOrder != action.sortOrder) {
                     _state.update {
                         it.copy(selectedSortOrder = action.sortOrder)
